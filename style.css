@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.app {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+.app:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.app img {
+  width: 100px;
+  height: 100px;
+}
+.app a {
+  text-decoration: none;
+  color: #333;
+}
