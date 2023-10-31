@@ -11,6 +11,16 @@ Easy Navigation: Users can easily navigate to the desired web page or service by
 
 Customization: You can easily customize this homepage to suit your specific needs, adding or removing links as necessary.
 
+## Quickview
+
+You can run the homelabpage with docker image and take a quick look.
+
+```bash
+docker run --rm -p 80:80 safderun/homelab-homepage:latest
+```
+
+<img width="1679" alt="image" src="https://github.com/safderun/homelabpage/assets/58513283/4c5702f5-dae3-43a1-9c77-2639c23026bc">
+
 ## Getting Started
 
 Follow these instructions to get a copy of this project up and running on your own homelab server.
